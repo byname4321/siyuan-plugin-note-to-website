@@ -104,4 +104,4 @@
 
 ## 🐞 Issue
 
-发现Bug或有其他问题，点击[此处](https://github.com/byname1234/siyuan-plugin-note-to-website/issues)进行讨论。
+发现Bug或有其他问题，点击[此处](https://github.com/byname4321/siyuan-plugin-note-to-website/issues)进行讨论。
