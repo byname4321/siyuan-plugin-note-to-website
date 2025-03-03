@@ -36,9 +36,11 @@
             "vite/client"
         ],
         // "baseUrl": "./src",
+        // "baseUrl": ".",
         "paths": {
             "@/*": ["./src/*"],
             "@/libs/*": ["./src/libs/*"],
+            "@siyuan/*": ["siyuan/*"],
         }
     },
     "include": [

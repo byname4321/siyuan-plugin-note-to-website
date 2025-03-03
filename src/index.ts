@@ -7,7 +7,7 @@ import { InterruptionManager } from "./InterruptionManager";
 import { ProgressDialog } from "./ProgressDialog";
 import { SettingDialog } from "./SettingDialog";
 import { EnvAsyncProcessor } from "./EnvAsyncProcessor";
-import PageUtil from "../siyuan/utils/PageUtil";
+import PageUtil from "@siyuan/utils/PageUtil";
 import * as sy_kernel from '@siyuan-community/siyuan-sdk/src/types/kernel';
 
 export const STORAGE_NAME = "menu-config";
