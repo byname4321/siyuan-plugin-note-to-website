@@ -40,7 +40,7 @@
         "paths": {
             "@/*": ["./src/*"],
             "@/libs/*": ["./src/libs/*"],
-            "@/siyuan/*": ["./siyuan/*"],
+            "@/siyuan/*": ["../siyuan/*"],
         }
     },
     "include": [
