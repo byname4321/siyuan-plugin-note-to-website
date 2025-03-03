@@ -104,4 +104,4 @@
 
 ## 🐞 Issue
 
-To report bugs or other issues, click [here](https://github.com/byname1234/siyuan-plugin-note-to-website/issues) to start a discussion.
+To report bugs or other issues, click [here](https://github.com/byname4321/siyuan-plugin-note-to-website/issues) to start a discussion.
