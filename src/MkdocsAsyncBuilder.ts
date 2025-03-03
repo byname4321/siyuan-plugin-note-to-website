@@ -252,9 +252,12 @@ export class MkdocsAsyncBuilder {
 
         let activateVenvCmd: string = this.plugin.absolutePythonVenvDir + "Scripts\\activate";
         // mkdocs build会把非error信息输出到标准错误, 为方便处理把标准错误重定向到标准输出统一处理;
-        let cmd: string = activateVenvCmd + " && cd " + this.plugin.absolutePluginWorkDir 
-            + this.plugin.curRootDoc.content + " && mkdocs build --clean --verbose 2>&1";
+        let cmd: string = activateVenvCmd + " && mkdocs build --config-file " 
+            + this.plugin.absolutePluginWorkDir + this.plugin.curRootDoc.content 
+            + "\\mkdocs.yml" + " --clean --verbose 2>&1";
+
         commandExecutor.execute(cmd);
+
         this.plugin.startFakeUpdateProgress();
     }
 
