@@ -8,6 +8,6 @@ First release
 
 Some change
 
-## 0.0.5 2025-03
+## 0.0.7 2025-03
 
 fix bug: Config file 'mkdocs.yml' does not exist.
