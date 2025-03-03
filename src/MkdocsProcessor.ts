@@ -51,6 +51,7 @@ export class MkdocsProcessor {
      * @returns {Promise<void>}
      */
     public async generateMkdocsYamlFile(blocks: {[key:string]:Block[]}): Promise<void> {
+
         this.plugin.checkInterrupt();
         let siyuan2MkDocsDir: string = this.plugin.pluginWorkDir;
         let siteName: string = this.plugin.websiteName;
